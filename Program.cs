@@ -11,9 +11,9 @@ namespace CSHARP_Conditions_Exo5
 
             switch (mois)
             {
-                case "decembre":
+                case "décembre":
                 case "janvier":
-                case "fevrier":
+                case "février":
                     Console.WriteLine("L'HIVER VIENT");
                     break;
                 case "mars":
@@ -23,7 +23,7 @@ namespace CSHARP_Conditions_Exo5
                     break;
                 case "juin":
                 case "juillet":
-                case "aout":
+                case "août":
                     Console.WriteLine("Janis, range ton spliff et vient chanter Summertime");
                     break;
                 case "septembre":
