@@ -6,7 +6,7 @@ namespace CSHARP_Conditions_Exo5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bonjour Utilisateur. Saisir le nom d'un mois. ");
+            Console.WriteLine("Bonjour Utilisateur. Saisir le nom d'un mois, sans accent.");
             string mois = Console.ReadLine().ToLowerInvariant();
 
             switch (mois)
@@ -26,9 +26,14 @@ namespace CSHARP_Conditions_Exo5
                 case "aout":
                     Console.WriteLine("Janis, range ton spliff et vient chanter Summertime");
                     break;
+                case "septembre":
+                case "octobre":
+                case "novembre":
+                    Console.WriteLine("Les feuilles mortes sous ses chaussures");
+                    break;
 
                 default:
-                    Console.Write("Echec système : mauvais identifiant ou mot de passe");
+                    Console.Write("Echec système : l'utilisateur a saisi une information érronée.");
                     break;
             }
 
