@@ -6,7 +6,7 @@ namespace CSHARP_Conditions_Exo5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bonjour Utilisateur. Saisir le nom d'un mois, sans accent.");
+            Console.WriteLine("Bonjour Utilisateur. Veuillez saisir un mois de l'année.");
             string mois = Console.ReadLine().ToLowerInvariant();
 
             switch (mois)
